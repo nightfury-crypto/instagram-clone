@@ -1,0 +1,94 @@
+.post {
+    background-color: white;
+    max-width: 600px;
+    border: 1px solid lightgrey;
+    margin-bottom: 45px;
+    margin-left: 10px;
+    
+    
+    
+}
+
+
+@media (min-width: 900px) {
+    .post {
+        margin-left: 200px;
+    }
+}
+
+.si {
+    /* width: 10px; */
+    border: none ;
+}
+
+
+.post_avatar_info {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.post_import {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    max-height: 410px ;
+    min-height: 407px ;
+}
+
+.avatar {
+    margin-right: 10px;
+    color: rgb(161, 158, 158);    
+}
+
+.post_caption {
+    padding-left: 20px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.post_commentBox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.post_input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+
+.post_button {
+    flex: 0;
+    border: none;
+    color: #3081d3;
+    background-color: transparent;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.post_comments {
+    padding: 20px;
+    font-size: 15px;
+}
+
+@media (min-height: 30px) {
+    .post_comments {
+        max-height: 70px;
+        overflow: auto;
+        
+    }
+}
+
+.likes_done{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    left: 10px;
+    font-size: 20px;
+}
+.fav, .borderfav{
+    color: rgb(243, 81, 108);
+}

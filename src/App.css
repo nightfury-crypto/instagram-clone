@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: #fafafa;
+  height: 100vh;
+  
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app_loginContainer {
+  position: absolute;
+  background-color: #fafafa;  
+  bottom: 20vh;
+  margin-left: 45%;
+  
+}
+
+.welcome_image {
+  position: absolute; 
+  bottom: 30vh;
+  margin-left: 40%;
+  border-radius: 50%;
+  width: 200px;
+  max-width: 200px;
+}
+
+.app_header {
+  position: sticky;
+  top: 0;
+}
+
+.app_footer {
+  position: sticky;
+  bottom: 0;
+  max-height: 10vh;
+}
+
+.app_logout {
+  justify-content: center;
+  margin: 50%;
+  padding: 40px;
+}

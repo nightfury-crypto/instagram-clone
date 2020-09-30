@@ -1,0 +1,39 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.imageupload_progress {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.imageupload_file {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+    
+}
+
+.imageupload_caption {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+}
+
+.imageupload_btn {
+    font-size: 50px;
+    
+}
